@@ -1,0 +1,23 @@
+.content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+// .content {
+//   background: linear-gradient(
+//         90deg,
+//         $bg-color ($dot-space - $dot-size),
+//         transparent 1%
+//       )
+//       center,
+//     linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+//     $dot-color;
+//   background-size: $dot-space $dot-space;
+// }
+
+.content {
+  background: linear-gradient(90deg, rgba(255, 93, 93, 0) 20.5px, transparent 1%) center, linear-gradient(rgba(255, 93, 93, 0) 20.5px, transparent 1%) center, rgba(255, 255, 255, 0.051);
+  background-size: 22px 22px;
+}
